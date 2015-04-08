@@ -6,4 +6,10 @@ class ApplicationController < ActionController::Base
   def hello
     render text: "Live on the internet, with Taylor and Tegan!"
   end
+
+  def goodbye
+    render text: "How much does Sawyer cost?"
+  end
+  
 end
+
